@@ -1,0 +1,137 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		details_screen
+	 *	@date 		Sunday 12th of November 2023 07:24:06 PM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/details_screen" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_details_screen_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__details_screen_ek2"
+					android:layout_width="375dp"
+					android:layout_height="812dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__details_screen_ek2_shape" />
+
+				<ImageView android:id="@+id/mask_group"
+					android:src="@drawable/mask_group"
+					android:contentDescription="mask_group"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="73dp"
+					android:layout_width="375dp"
+					android:layout_height="198dp" />
+
+				<ImageView android:id="@+id/rectangle_10"
+					android:src="@drawable/rectangle_10"
+					android:contentDescription="rectangle_10"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="375dp"
+					android:layout_height="198dp" />
+
+
+				<RelativeLayout android:id="@+id/frame_36"
+					android:layout_marginTop="306dp"
+					android:layout_marginStart="21dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+				<RelativeLayout
+					android:id="@+id/rectangle_container"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentTop="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="50dp"
+					android:layout_marginTop="550dp"
+					android:layout_marginEnd="154dp">
+
+					<ImageView
+						android:id="@+id/rectangle_image"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:layout_alignParentStart="true"
+						android:layout_centerVertical="true"
+						android:layout_marginStart="-6dp"
+						android:contentDescription="Your Image Description"
+						android:src="" />
+
+					<TextView
+						android:id="@+id/rectangle_text"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerVertical="true"
+						android:layout_marginStart="10dp"
+						android:layout_toEndOf="@id/rectangle_image"
+						android:text="Your Text"
+						android:textColor="#000000"
+						android:textSize="16sp" /> <!-- Adjust the margin as needed -->
+
+				</RelativeLayout>
+
+				<ImageView android:id="@+id/rectangle_11"
+					android:src="@drawable/rectangle_11"
+					android:contentDescription="rectangle_11"
+					 android:layout_marginStart="314dp"
+					android:layout_marginTop="312dp"
+					android:layout_width="39dp"
+					android:layout_height="32dp" />
+
+				<ImageView android:id="@+id/rectangle_12"
+					android:src="@drawable/rectangle_12"
+					android:contentDescription="rectangle_12"
+					 android:layout_marginStart="314dp"
+					android:layout_marginTop="390dp"
+					android:layout_width="39dp"
+					android:layout_height="32dp" />
+
+				<ImageView android:id="@+id/rectangle_13"
+					android:src="@drawable/rectangle_13"
+					android:contentDescription="rectangle_13"
+					 android:layout_marginStart="314dp"
+					android:layout_marginTop="468dp"
+					android:layout_width="39dp"
+					android:layout_height="32dp" />
+
+				<ImageView android:id="@+id/logo"
+					android:src="@drawable/logo"
+					android:contentDescription="logo"
+					 android:layout_marginStart="119dp"
+					android:layout_marginTop="14dp"
+					android:layout_width="138dp"
+					android:layout_height="57dp" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
